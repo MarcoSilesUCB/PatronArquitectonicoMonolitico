@@ -1,0 +1,7 @@
+
+
+    //Este funcion va a obtenerlos datos por medio de un servicio REST de micro DataAccesService
+
+doSale(idItem, cant) //Este se enviara los datos 
+
+doResupply

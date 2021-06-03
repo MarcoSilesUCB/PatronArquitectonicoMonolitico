@@ -1,0 +1,29 @@
+
+
+getData() {}  Por medio de esta esa capa obtendra los datos que se almacenan en la base de datos
+
+
+y por medio de un servicio REST que ha de retornar un json con los datos del proyecto
+
+
+
+[HttpGet]
+json getData(){}
+
+por medio de este servicio se han de poder la capa de presentacion ha de mandar la informacion necesaria para hacer la compra de algun producto
+ y tambien se ha de agregar este cambio en la base de datos ya que se agrega un registro de la compra y se actualiza los datos de almacen
+
+
+
+[HttpPost]
+json postSale(idItem, cant){}
+
+por medio de este servicio se han de poder la capa de presentacion ha de mandar la informacion necesaria para hacer la compra de algun producto
+y tambien se ha de agregar este cambio en la base de datos ya que se agrega un registro de la compra y se actualiza los datos de almacen
+
+
+
+[HttpPost]
+json postResupply(idItem, cant){}
+
+Por medio de este sercio se ha poder agregar datos
